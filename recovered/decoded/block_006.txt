@@ -1,7 +1,0 @@
-
----
-
-## 2. Privacy Policy & Terms of Service
-
-### frontend/app/privacy/page.tsx
-

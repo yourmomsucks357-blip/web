@@ -1,3 +1,0 @@
-
-### 5. `src/routes/auth.ts` (Corrected Auth Responses)
-

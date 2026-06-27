@@ -1,7 +1,0 @@
-
----
-
-## 3. Vehicle Intake Screens
-
-### src/screens/intake/VinEntryScreen.tsx
-

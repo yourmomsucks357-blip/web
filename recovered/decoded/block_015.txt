@@ -1,7 +1,0 @@
-
----
-
-## 4. Other Components
-
-### frontend/components/ui/LoadingOverlay.tsx
-

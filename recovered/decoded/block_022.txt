@@ -1,5 +1,0 @@
-
----
-
-## 2. `src/routes/vehicles.ts` (Corrected)
-

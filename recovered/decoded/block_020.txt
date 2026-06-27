@@ -1,3 +1,0 @@
-
-### 4. src/middleware/auth.ts (Corrected JWT Payload)
-

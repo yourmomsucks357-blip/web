@@ -1,5 +1,0 @@
-
----
-
-## File 11: `script.js` — Interactivity
-
