@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snap Before U Scrap - Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a class="logo" href="index.html">Snap Before U Scrap</a>
+      <nav class="nav-links">
+        <a href="listings.html">Listings</a>
+        <a href="how-it-works.html">How It Works</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a class="btn btn-outline" href="auth-login.html">Sign In</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Talk to our parts offer team.</h1>
+        <p>Submit your part details and we will match you with active buyers in your category.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <article class="card card-pad">
+          <h2 style="font-size:1.15rem;margin-bottom:0.6rem;">Contact Info</h2>
+          <p class="helper" style="margin-bottom:0.8rem;">Business hours: Mon-Sat, 8:00 AM - 7:00 PM CT</p>
+          <div class="form-stack">
+            <div class="spec">
+              <div class="spec-label">Phone</div>
+              <div class="spec-value">(312) 555-0148</div>
+            </div>
+            <div class="spec">
+              <div class="spec-label">Email</div>
+              <div class="spec-value">hello@snapbeforeuscrap.com</div>
+            </div>
+            <div class="spec">
+              <div class="spec-label">Response Time</div>
+              <div class="spec-value">Usually under 2 hours</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card-pad">
+          <h2 style="font-size:1.15rem;margin-bottom:0.6rem;">Request Buyer Match</h2>
+          <form class="form-stack" action="#" method="post">
+            <label class="label" for="name">Name</label>
+            <input id="name" class="input" type="text" name="name" placeholder="Your name" required />
+
+            <label class="label" for="email">Email</label>
+            <input id="email" class="input" type="email" name="email" placeholder="you@example.com" required />
+
+            <label class="label" for="part">Part Name / OEM</label>
+            <input id="part" class="input" type="text" name="part" placeholder="e.g. 81110-06D40" required />
+
+            <label class="label" for="message">Details</label>
+            <textarea id="message" class="input" name="message" rows="4" placeholder="Condition, fitment, and quantity"></textarea>
+
+            <button class="btn btn-primary" data-track-cta type="submit">Submit Request</button>
+          </form>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p><strong>Snap Before U Scrap</strong> - Buyer matching for serious parts sellers.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

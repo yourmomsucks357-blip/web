@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snap Before U Scrap - Sign In</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a class="logo" href="index.html">Snap Before U Scrap</a>
+      <nav class="nav-links">
+        <a href="listings.html">Listings</a>
+        <a href="how-it-works.html">How It Works</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a class="btn btn-outline" href="auth-register.html">Create Account</a>
+    </div>
+  </header>
+
+  <main class="auth-shell">
+    <section class="card card-pad auth-card">
+      <h1 style="font-size:1.5rem;line-height:1.25;margin-bottom:0.35rem;">Welcome back</h1>
+      <p class="helper" style="margin-bottom:0.9rem;">Sign in to manage listings, review offers, and message verified buyers.</p>
+
+      <form class="form-stack" action="#" method="post">
+        <label class="label" for="email">Email Address</label>
+        <input id="email" class="input" type="email" name="email" autocomplete="email" placeholder="you@example.com" required />
+
+        <label class="label" for="password">Password</label>
+        <input id="password" class="input" type="password" name="password" autocomplete="current-password" placeholder="Enter password" required />
+
+        <button class="btn btn-primary" data-track-cta type="submit">Sign In</button>
+      </form>
+
+      <div class="divider"></div>
+      <p class="helper">Forgot your password? <a href="auth-reset.html" style="">Reset it here</a>.</p>
+      <p class="helper" style="margin-top:0.45rem;">New to Snap Before U Scrap? <a href="auth-register.html" style="">Create your account</a>.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

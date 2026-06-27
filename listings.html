@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snap Before U Scrap - Active Listings</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a class="logo" href="index.html">Snap Before U Scrap</a>
+      <nav class="nav-links">
+        <a href="listings.html">Listings</a>
+        <a href="how-it-works.html">How It Works</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a class="btn btn-outline" href="auth-login.html">Sign In</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Parts listings buyers are actively bidding on.</h1>
+        <p>Review demand, compare offers, and publish your listing when the timing is right.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="card card-pad" style="margin-bottom:1rem;">
+          <div class="filters">
+            <input class="input" type="search" placeholder="Search part or OEM number" />
+            <select class="select" aria-label="Condition filter">
+              <option>Any condition</option>
+              <option>Like New</option>
+              <option>Good</option>
+              <option>Fair</option>
+            </select>
+            <select class="select" aria-label="Vehicle make filter">
+              <option>All makes</option>
+              <option>Toyota</option>
+              <option>Honda</option>
+              <option>Ford</option>
+            </select>
+            <button class="btn btn-primary" type="button">Apply Filters</button>
+          </div>
+        </div>
+
+        <div class="listing-grid">
+          <article class="card card-pad listing-card">
+            <h2>2019 Toyota Camry LED Headlight (Passenger Side)</h2>
+            <div class="listing-meta">
+              <span class="pill pill-blue">OEM: 81110-06D40</span>
+              <span class="pill pill-amber">Condition: Good</span>
+              <span class="pill pill-green">4 offers</span>
+            </div>
+            <p>Minor tab wear, lens is clear, tested and working. Fits 2018-2020 trims with LED package.</p>
+            <div class="listing-footer">
+              <div class="price">Top offer: $385</div>
+              <a class="btn btn-primary" data-track-cta data-listing-id="camry-headlight-81110" href="listing-detail.html">View Listing</a>
+            </div>
+          </article>
+
+          <article class="card card-pad listing-card">
+            <h2>Honda Accord Front Bumper Cover (2021 Sport)</h2>
+            <div class="listing-meta">
+              <span class="pill pill-blue">OEM: 04711-TVA-A90ZZ</span>
+              <span class="pill pill-amber">Condition: Fair</span>
+              <span class="pill pill-green">2 offers</span>
+            </div>
+            <p>Paint scuffs and one crack near grille opening. Ideal for refinishing or repair-focused buyers.</p>
+            <div class="listing-footer">
+              <div class="price">Top offer: $210</div>
+              <a class="btn btn-primary" data-track-cta data-listing-id="accord-bumper-04711" href="listing-detail.html">View Listing</a>
+            </div>
+          </article>
+
+          <article class="card card-pad listing-card">
+            <h2>Ford F-150 Tailgate w/ Camera Cutout (2020)</h2>
+            <div class="listing-meta">
+              <span class="pill pill-blue">OEM: JL3Z-9940700-A</span>
+              <span class="pill pill-amber">Condition: Like New</span>
+              <span class="pill pill-green">6 offers</span>
+            </div>
+            <p>No dents, includes handle assembly, no rust. Removed from low-mileage donor vehicle.</p>
+            <div class="listing-footer">
+              <div class="price">Top offer: $740</div>
+              <a class="btn btn-primary" data-track-cta data-listing-id="f150-tailgate-jl3z" href="listing-detail.html">View Listing</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p><strong>Snap Before U Scrap</strong> - Transparent parts offers with less hassle.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
