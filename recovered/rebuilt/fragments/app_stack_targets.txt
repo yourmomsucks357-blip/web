@@ -1,0 +1,14 @@
+frontend/app/privacy/page.tsx
+frontend/app/terms/page.tsx
+src/navigation/AuthNavigator.tsx
+src/screens/home/SearchScreen.tsx
+src/screens/intake/VinEntryScreen.tsx
+src/screens/intake/IntakeCompleteScreen.tsx
+frontend/components/ui/LoadingOverlay.tsx
+frontend/components/ui/EmptyState.tsx
+src/app.ts
+src/server.ts
+src/middleware/auth.ts
+src/routes/auth.ts
+src/routes/vehicles.ts
+src/routes/listings.ts

@@ -1,0 +1,1 @@
+\n#### src/navigation/AuthNavigator.tsx\n\n

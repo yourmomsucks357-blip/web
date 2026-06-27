@@ -1,0 +1,7 @@
+
+---
+
+## 2. SearchScreen (Listings Browse)
+
+### src/screens/home/SearchScreen.tsx
+

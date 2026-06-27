@@ -1,0 +1,9 @@
+Recovery extraction complete.
+
+Created:
+- recovered/all/main.raw.txt
+- recovered/all/after-first-html.raw.txt
+- recovered/all/chat-json-tail.raw.txt
+- recovered/site/index.html
+- recovered/snippets/MANIFEST.md
+- recovered/snippets/block_XXX.*

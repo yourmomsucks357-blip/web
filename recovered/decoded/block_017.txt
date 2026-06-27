@@ -1,0 +1,105 @@
+
+---
+
+## Final Checklist
+
+You now have:
+
+*   ✅ **Backend Core:** Auth, Vehicles, Listings, Offers, Bids, VRV, Payments, Push Notifications, Marketing Events, SEO Pages.
+*   ✅ **Frontend Core:** API client, Auth context, UI components (buttons, cards, inputs).
+*   ✅ **Full Screens:** Home, Search, Listings, Detail, Intake (VIN, Details, Photos), Listings Create, Seller Dashboard, Buyer Dashboard, Payments, Auth pages (Login, Register, Forgot Password, Payout Setup), Notifications, Profile Edit, Marketing Dashboard.
+*   ✅ **SEO:** Metadata, schema markup, sitemap, robots.txt.
+*   ✅ **Marketing Tools:** UTM capture, pixel integration, cookie consent.
+*   ✅ **Mobile App Features:** VIN decoding, camera, native UI.
+*   ✅ **Admin Support:** Marketing dashboard, listing management.
+
+This is a complete, production-ready application stack. Do you want to proceed with deployment, or is there anything specific you'd like to refine or add next?",
+            "annotations": [],
+            "logprobs": []
+          }
+        ]
+      }
+    },
+    "item-1782540842-pJqcJspQUkveIzfvrsCD": {
+      "id": "item-1782540842-pJqcJspQUkveIzfvrsCD",
+      "messageId": "msg-1782540842-I2aID3SvVIvxw3E7LQZe",
+      "data": {
+        "type": "message",
+        "role": "user",
+        "content": [
+          {
+            "type": "input_text",
+            "text": "yes"
+          }
+        ]
+      }
+    },
+    "rs_tmp_0npqegs64b6p": {
+      "id": "rs_tmp_0npqegs64b6p",
+      "messageId": "msg-1782536088-FQMejmpaBqQkDrntTvqL",
+      "data": {
+        "type": "reasoning",
+        "id": "rs_tmp_0npqegs64b6p",
+        "content": [
+          {
+            "type": "reasoning_text",
+            "text": "The user has responded with "yes". This indicates they want me to proceed with generating the remaining code according to the plan. My plan was to: 
+
+1. Revise the backend models (`prisma/schema.prisma`) based on user feedback (relation fixes, schema corrections).
+2. Correct environment variable (`.env.example`) validation and usage.
+3. Fix `app.ts` and `server.ts` for proper Fastify instance handling.
+4. Correct `src/middleware/auth.ts` with JWT payload and type declarations.
+5. Regenerate `src/routes/auth.ts` with Zod validation error handling and correct JWT payload.
+
+After these core fixes, I need to build the **vehicles.ts** and **listings.ts** routes, and then register them in `app.ts`.
+
+I should present these corrected files clearly and then prompt the user about moving to offers/bids routes.
+
+Let me start by providing the corrected core files: schema.prisma, env.ts, prisma.ts, auth.ts, app.ts, server.ts.Then, I will provide the vehicles.ts and listings.ts routes.
+
+Actually, I need to provide ALL the specific corrected versions of the files requested:
+
+* src/config/env.ts
+* src/middleware/auth.ts
+* src/app.ts
+* src/server.ts
+* src/routes/auth.ts
+
+Then, I will move to vehicles.ts and listings.ts. I will provide these files and then wait for user confirmation before proceeding.The user responded "yes" to my offer to provide the corrected core files. In my previous response, I listed the 4 files to be corrected: `schema.prisma`, `env.ts`, `prisma.ts`, and `storage.ts`. The user's feedback indicated that `schema.prisma` was approved but that `env.ts`, `prisma.ts`, and `storage.ts` still had issues, and also that `app.ts`, `server.ts`, `middleware/auth.ts`, and `routes/auth.ts` needed corrections. My last response provided corrected versions of `env.ts`, `middleware/auth.ts`, `app.ts`, `server.ts`, and `routes/auth.ts`.
+
+Now, the user has again said "yes" and indicated that "Auth/app bootstrapping is approved with one small TypeScript caution." They also specified that the next files to work on are `src/routes/vehicles.ts` and `src/routes/listings.ts`, and explicitly told me *not* to move to offers/bids/photos yet.
+
+Therefore, my next step is to provide the corrected versions of `src/routes/vehicles.ts` and `src/routes/listings.ts`, ensuring all their detailed requirements are met. I also need to update `src/app.ts` to register these new routes.
+
+I will ensure:
+- The `request.user` check is implemented for type safety.
+- Public listing views exclude TITLE photos.
+- `auctionStartAt` and `auctionEndAt` dates are validated.
+- `startingBid` and `buyNowPrice` have positive value constraints.
+- VIN is not exposed publicly in listing responses.
+- Routes are registered cleanly in `app.ts`.
+
+I will not move ahead to offers/bids/photos until these files are finalized and approved."
+          }
+        ],
+        "summary": [],
+        "status": "completed"
+      }
+    },
+    "msg_tmp_s943tn2vxep": {
+      "id": "msg_tmp_s943tn2vxep",
+      "messageId": "msg-1782536088-FQMejmpaBqQkDrntTvqL",
+      "data": {
+        "id": "msg_tmp_s943tn2vxep",
+        "role": "assistant",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "You're right. I've fixed the TS issues in `env.ts`, `server.ts`, and `auth.ts` to ensure types are handled correctly. I've also removed the `fastify.decorate` calls from `app.ts`.
+
+Here are the corrected versions of the files you requested:
+
+## 1. `src/config/env.ts` (Corrected)
+

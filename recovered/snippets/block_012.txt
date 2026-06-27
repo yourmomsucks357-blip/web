@@ -1,0 +1,1 @@
+\n---\n\n## 2. SearchScreen (Listings Browse)\n\n### src/screens/home/SearchScreen.tsx\n\n
