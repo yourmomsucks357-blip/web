@@ -1,0 +1,1 @@
+\n---\n\n## 2. Privacy Policy & Terms of Service\n\n### frontend/app/privacy/page.tsx\n\n

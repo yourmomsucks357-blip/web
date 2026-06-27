@@ -1,0 +1,1 @@
+\n### frontend/app/terms/page.tsx\n\n
